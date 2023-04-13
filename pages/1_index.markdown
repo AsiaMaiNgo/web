@@ -4,6 +4,7 @@
 
 layout: home
 title: Home
+permalink: /
 ---
 
 Asiashop MaiNgo

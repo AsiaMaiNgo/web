@@ -1,7 +1,10 @@
 ---
 layout: post
-categories: bestellungen kw15 xd
-permalink: /:categories
+categories: bestellungen kw15
 ---
 
-Some Content
+Diese Woche neu im Sortiment:
+<ul>
+    <li>Golden Bihon Special Palabok</li>
+    <li>Seaweed Snack</li>
+</ul>

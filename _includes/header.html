@@ -3,7 +3,7 @@
   <div class="logo-header header-padding">
     <div class="logo">Asia Markt MaiNgo</div>
     <nav class="nav">
-        {% assign url = page.url | replace:'.html', '/' | prepend: site.baseurl %}
+        {% assign url = page.url | remove:'.html' | prepend: site.baseurl %}
         {% for link in site.navigation %}
             {% assign check2 = link.url | split:'/' %}
             {% assign url2 = check2[check2.size - 1] %}

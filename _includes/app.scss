@@ -199,9 +199,20 @@ body {
   .left {
     margin-left: -186px;
   }
+
+}
+
+.imprint-container {
+  width: 1280px;
 }
 
 @media (max-width: 1280px) {
+  .imprint-container {
+    width: 100%;
+    padding: 24px 24px;
+    box-sizing: border-box;
+  }
+
   .logo-header {
     width: 100%;
     padding: 24px 24px;
@@ -225,6 +236,10 @@ body {
 
   .title2 {
     font-size: 42px;
+  }
+
+  .news-container {
+    margin-top: 184px;
   }
 }
 
@@ -532,3 +547,4 @@ ul {
 .unselected {
   opacity: 60%;
 }
+

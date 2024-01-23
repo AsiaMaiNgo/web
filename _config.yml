@@ -51,11 +51,11 @@ navigation:
 - text: Home
   url: /web/
 - text: Aktuelles
-  url: /web/pages/news/
+  url: /web/pages/news
 - text: Sortiment
-  url: /web/pages/sortiment/
+  url: /web/pages/sortiment
 - text: Impressum
-  url: /web/pages/impressum/
+  url: /web/pages/impressum
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

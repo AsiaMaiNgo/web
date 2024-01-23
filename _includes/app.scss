@@ -28,7 +28,6 @@ body {
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  user-select: none;
 }
 
 .header {
@@ -522,7 +521,6 @@ h3.purchase-title {
   gap: 3em;
   width: 100%;
   margin: 2em 0;
-  user-select: none;
   color: #fff;
 }
 

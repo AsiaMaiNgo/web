@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Poppins";
-  src: url("assets/fonts/Poppins-Bold.woff2") format("woff2"), url("assets/fonts/Poppins-Bold.woff") format("woff");
+  src: url("/web/assets/fonts/Poppins-Bold.woff2") format("woff2"), url("/web/assets/fonts/Poppins-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("assets/fonts/Poppins-Medium.woff2") format("woff2"), url("assets/fonts/Poppins-Medium.woff") format("woff");
+  src: url("/web/assets/fonts/Poppins-Medium.woff2") format("woff2"), url("/web/assets/fonts/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("assets/fonts/Poppins-Regular.woff2") format("woff2"), url("assets/fonts/Poppins-Regular.woff") format("woff");
+  src: url("/web/assets/fonts/Poppins-Regular.woff2") format("woff2"), url("/web/assets/fonts/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -25,7 +25,7 @@
 body {
   margin: 0px;
   height: 100vh;
-  font-family: Nunito, sans-serif;
+  font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
   user-select: none;
@@ -112,6 +112,17 @@ body {
   gap: 80px;
 }
 
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background: var(--Gray-Scale-White, #fff);
+  padding-bottom: 80px;
+  margin-top: 124px;
+  gap: 80px;
+}
+
 .sub-container {
   display: flex;
   flex-direction: row;
@@ -188,9 +199,20 @@ body {
   .left {
     margin-left: -186px;
   }
+
+}
+
+.imprint-container {
+  width: 1280px;
 }
 
 @media (max-width: 1280px) {
+  .imprint-container {
+    width: 100%;
+    padding: 24px 24px;
+    box-sizing: border-box;
+  }
+
   .logo-header {
     width: 100%;
     padding: 24px 24px;
@@ -215,11 +237,16 @@ body {
   .title2 {
     font-size: 42px;
   }
+
+  .news-container {
+    margin-top: 184px;
+  }
 }
 
 .nav {
   display: flex;
   gap: 22px;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -245,6 +272,11 @@ body {
   border: none;
   cursor: pointer;
   background: none;
+  text-decoration: none;
+
+  &.current {
+    color: #00b207;
+  }
 
   &:hover {
     color: var(--Branding-Success, #00b207);
@@ -478,7 +510,7 @@ h1.product-title {
 }
 
 h3.purchase-title {
-  font-family: Nunito, serif;
+  font-family: Poppins, serif;
   align-self: flex-start;
   margin-bottom: 0.5em;
 }
@@ -503,7 +535,7 @@ h3.purchase-title {
 }
 
 ul {
-  font-family: "Nunito", serif;
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -515,3 +547,4 @@ ul {
 .unselected {
   opacity: 60%;
 }
+

@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="address header-padding"><span class="material-symbols-outlined"> location_on </span> Kirchenstraße 7, 26655 Westerstede</div>
+  <div class="logo-header header-padding">
+    <div class="logo">Asia Markt MaiNgo</div>
+    <nav class="nav">
+        {% assign url = page.url | replace:'.html', '/' | prepend: site.baseurl %}
+        {% for link in site.navigation %}
+            {% assign check2 = link.url | split:'/' %}
+            {% assign url2 = check2[check2.size - 1] %}
+            <a class="nav-link {% if link.url == url %}current{% endif %}" href="{{link.url}}"> {{ link.text }}</a>
+        {% endfor %}
+    </nav>
+  </div>
+</header>

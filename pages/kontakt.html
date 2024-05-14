@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="news-container">
+  <h1 class="title">Kontakt</h1>
+
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/fea59d4ba28e36e603c5199894578281?embedded=1"></div>
+
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
+
+</section>

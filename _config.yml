@@ -54,6 +54,8 @@ navigation:
   url: /web/pages/news
 - text: Sortiment
   url: /web/pages/sortiment
+- text: Kontakt
+  url: /web/pages/kontakt
 - text: Impressum
   url: /web/pages/impressum
 # Exclude from processing.

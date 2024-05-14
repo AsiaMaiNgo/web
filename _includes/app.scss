@@ -569,3 +569,13 @@ ul {
 .news-tile-date {
   text-align: right;
 }
+
+#formkeep-embed {
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  #formkeep-embed {
+    width: auto;
+  }
+}

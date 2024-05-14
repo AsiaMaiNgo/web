@@ -5,18 +5,15 @@ layout: default
 <section class="news-container">
     <h1 class="title">Aktuelles</h1>
 
-
-  
     {% for news in site.posts %}
     <div class="news-tile-container">
 
-      <div class="news-tile-header">
-        <div>{{news.title}}</div>
-        <div>{{news.date | date: "%d.%m.%y, %R Uhr"}}</div>
-      </div>
+      <div class="news-tile-header">{{news.title}}</div>
 
       <div class="news-tile-content">{{news.content}}</div>
 
+      <div class="news-tile-date">{{news.date | date: "%d.%m.%y, %R Uhr"}}</div>
+      
     </div>
     {% endfor %}
   

@@ -117,9 +117,9 @@ body {
   justify-content: start;
   align-items: center;
   background: var(--Gray-Scale-White, #fff);
-  gap: 50px;
-  margin-top: 124px;
-  margin-bottom: 100px;
+  padding-bottom: 80px;
+  margin-top: 224px;
+  gap: 40px;
 }
 
 .sub-container {
@@ -249,12 +249,19 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  .logo-header {
+    display: flex;
+    gap: 24px;
+    white-space: nowrap;
+    align-items: center;
+  }
+
   .nav {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 22px;
     border-bottom: unset;
-    margin-top: 12px;
     align-items: center;
     justify-content: center;
   }
@@ -267,7 +274,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 21px */
+  line-height: 1.8; /* 21px */
   border: none;
   cursor: pointer;
   background: none;
@@ -458,7 +465,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.8;
   display: flex;
   align-items: flex-end;
   letter-spacing: -0.234px;
@@ -470,7 +477,7 @@ body {
   font-style: italic;
   font-weight: normal;
   font-size: 15px;
-  line-height: 15px;
+  line-height: 1.8;
   /* identical to box height */
 
   display: flex;
@@ -536,7 +543,7 @@ h3.purchase-title {
 ul {
   font-family: "Poppins", serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   padding-right: 3.5em;
 }
 
@@ -555,7 +562,10 @@ ul {
 
 .news-tile-header {
   display: flex;
-  justify-content: space-between;
   font-size: larger;
   font-weight: bold;
+}
+
+.news-tile-date {
+  text-align: right;
 }

@@ -571,5 +571,11 @@ ul {
 }
 
 #formkeep-embed {
-  width: auto;
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  #formkeep-embed {
+    width: auto;
+  }
 }

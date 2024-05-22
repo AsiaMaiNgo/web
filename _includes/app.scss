@@ -161,7 +161,6 @@ body {
 .title-container {
   display: flex;
   flex-direction: column;
-  width: 607px;
 
   p {
     color: var(--Gray-Scale-Gray-500, #4f4f4f);
@@ -252,20 +251,20 @@ body {
 
   .logo-header {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     white-space: nowrap;
     align-items: center;
   }
 
   h1 {
-    margin-top: 0;
+    margin-top: 2vh;
     margin-bottom: 1.2em;
   }
 
   .nav {
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px 22px;
+    gap: 10px 22px;
     border-bottom: unset;
     align-items: center;
     justify-content: center;

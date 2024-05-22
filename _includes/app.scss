@@ -257,6 +257,11 @@ body {
     align-items: center;
   }
 
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1.2em;
+  }
+
   .nav {
     flex-wrap: wrap;
     flex-direction: row;
@@ -275,7 +280,7 @@ body {
   }
 
   #formkeep-embed {
-    width: auto;
+    width: auto !important;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Bestellung 29.05.2024
-date:   2024-05-29 10:50 +0200
+date:   2024-05-29 10:50 +0400
 categories: bestellungen welcome
 ---
 
@@ -10,7 +10,7 @@ Liebe Kunden,
 folgende frische Waren habe ich heute bekommen:
 <ul>
 <li>Sojasprossen</li>
-<li>Enoki Pilze (<b>Kauf 1</b> bekomme <b>1 gratis</b> Special)</li>
+<li>Enoki Pilze</li>
 <li>Green Plantains</li>
 <li>Koriander</li>
 <li>Grüne Auberginen</li>

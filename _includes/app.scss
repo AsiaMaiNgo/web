@@ -106,7 +106,7 @@ body {
   justify-content: start;
   align-items: center;
   background: var(--Gray-Scale-White, #fff);
-  padding-bottom: 80px;
+  padding: 0 24px 80px;
   margin-top: 200px;
   gap: 80px;
 }
@@ -222,7 +222,7 @@ body {
   .sub-container {
     flex-direction: column;
     box-sizing: border-box;
-    padding: 0px 20px;
+    //padding: 0px 20px;
   }
 
   .title-container {

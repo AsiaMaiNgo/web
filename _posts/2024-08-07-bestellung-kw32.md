@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Bestellung 25.07.2024
-date:   2024-07-25 15:00 +0000
+title:  Bestellung 07.08.2024
+date:   2024-08-07 15:00 +0000
 categories: bestellungen welcome
 ---
 

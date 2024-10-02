@@ -10,6 +10,7 @@ Liebe Kunden,
 folgende frische Waren habe ich heute bekommen:
 <ul>
 <li>Enoki Pilze</li>
+<li>Sojasprossen</li>
 <li>Kochbanane (grün)</li>
 <li>Koriander</li>
 <li>Rote Chillis</li>
